@@ -11,6 +11,10 @@ body {
 
 .card img {
   height: 100%;
+  width: 100%;
+}
+.port {
+  height: 100em;
 }
 h5 {
   color: #008080;
@@ -19,11 +23,12 @@ h5 {
   color: white;
 }
 /* Footer */
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 45px;
   background-color: #008080;
   color: white;
   text-align: center;
