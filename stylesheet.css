@@ -12,6 +12,7 @@ body {
 .card img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .port {
   height: 100em;
@@ -19,8 +20,9 @@ body {
 h5 {
   color: #008080;
 }
-.p {
-  color: white;
+ p {
+  line-height: 1.7;
+  margin: 10px;
 }
 /* Footer */
 footer {
