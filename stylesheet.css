@@ -1,12 +1,7 @@
 /* Body */
 /* Backgound image */
 body {
-  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/91/94/PmdesY.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  margin-bottom: 100px;
-  clear: both;
+ background-color: rgba(223, 215, 215, 0.678); 
 }
 
 .card img {
@@ -31,7 +26,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 45px;
-  background-color: #008080;
+  background-color: #737777;
   color: white;
   text-align: center;
   margin-top: 1500px;
