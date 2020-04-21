@@ -1,28 +1,63 @@
 /* Body */
 /* Backgound image */
 body {
- background-color: #C9E8F2;  
+  background-color: rgba(0, 0, 0, 0.815);
+}
+.col-12 {
+  border-color: rgba(0, 0, 0, 0.815);
+}
+/* Retro Terminal Display */
+.no-gutters {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
 }
 
+.icons {
+  font-size: 1em; 
+  color: black;
+}
+a {
+  font-size: 1em; 
+  color:white;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+i {
+  margin-right:.5em;
+}
 .card img {
-  height: 75%;
-  width: 75;
+  height: 55%;
+  width: 55;
   object-fit: scale-down;
   margin-top: 3em;
+  margin-bottom: -3em;
 }
 .port {
   height: 100em;
 }
-h5 {
-  color: #008080;
+h3 {
+  color: black;
   text-align: center;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  font-weight: 900;
 }
- p {
+p {
   line-height: 1.7;
   margin: 10px;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
 }
-.card-text, .badge-info{
-margin-bottom: 2em;
+.card-text,
+.badge-info {
+  margin-bottom: 5em;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+.card-img-top {
+align-self: center;
 }
 
 /* Footer */
@@ -32,8 +67,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 35px;
-  background-color:#343a40;
+  background-color: #343a40;
   color: white;
   text-align: center;
-  
 }
+
