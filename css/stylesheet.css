@@ -3,9 +3,6 @@
 body {
   background-color: rgba(0, 0, 0, 0.815);
 }
-.col-12 {
-  border-color: rgba(0, 0, 0, 0.815);
-}
 /* Retro Terminal Display */
 .no-gutters {
   background-color: black;
@@ -18,13 +15,14 @@ body {
 }
 a {
   font-size: 1em; 
-  color:white;
+  color: white;
   text-shadow: 0 0 5px #C8C8C8;
 }
 
 i {
   margin-right:.5em;
 }
+/* GPOY */
 .card img {
   height: 55%;
   width: 55;
@@ -32,8 +30,17 @@ i {
   margin-top: 3em;
   margin-bottom: -3em;
 }
-.port {
-  height: 100em;
+#port {
+  text-align: center;
+  color: blue;
+}
+.port-card-text {
+  color: black;
+  text-align: center;
+}
+.WD {
+  width: 5%;
+  height: 1%;
 }
 h3 {
   color: black;
