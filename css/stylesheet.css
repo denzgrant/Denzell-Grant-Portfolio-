@@ -1,4 +1,7 @@
 /* Body */
+html, body { 
+  overflow-x: hidden;
+}
 .top {
   background-image: url(../Assets/Images/palms.jpg);
   width: 100%;
@@ -9,8 +12,8 @@
   background-attachment: fixed;
 }
 .card {
-  margin: auto; /* Added */
-  float: none; /* Added */
+  margin: auto; 
+  float: none; 
 }
 .bg-dark {
   background-color: transparent !important;
