@@ -32,6 +32,9 @@ html, body {
 .card-title {
   color: #e3e16c;
 }
+.card-text {
+  font-size: 1.1em;
+}
 #myself {
   height: 100%;
 }
