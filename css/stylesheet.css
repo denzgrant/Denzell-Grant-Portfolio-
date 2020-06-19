@@ -1,5 +1,6 @@
 /* Body */
-html, body { 
+html,
+body {
   overflow-x: hidden;
 }
 .top {
@@ -12,8 +13,8 @@ html, body {
   background-attachment: fixed;
 }
 .card {
-  margin: auto; 
-  float: none; 
+  margin: auto;
+  float: none;
 }
 .bg-dark {
   background-color: transparent !important;
@@ -45,8 +46,7 @@ html, body {
 }
 a {
   font-size: 1em;
-  color: rgb(0, 0, 0);
-  text-shadow: 0 0 5px #c8c8c8;
+  color: inherit;
 }
 
 i {
@@ -60,7 +60,6 @@ section {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 h2 {
   display: block;
@@ -82,7 +81,8 @@ p {
   margin: 10px;
   font-weight: 500;
 }
-h3, footer{
+h3,
+footer {
   color: rgb(255, 255, 255);
   font: 1.3rem Inconsolata, monospace;
   text-shadow: 0 0 5px #c8c8c8;
